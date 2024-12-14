@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .hero-section {
+            position: relative;
+            height: 600px;
+        }
+        .hero-section img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="text-2xl font-bold text-blue-600">Real Trust</div>
+            <nav class="space-x-4">
+                <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="#services" class="text-gray-600 hover:text-blue-600">Services</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-600">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+            </nav>
+            <a href="#quote" class="bg-orange-500 text-white px-4 py-2 rounded-md">Get a Quote</a>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="relative hero-section" id="home">
+        <img src="https://img.freepik.com/free-photo/young-couple-examining-blueprints-with-real-estate-agent-while-buying-new-home_637285-6111.jpg?t=st=1734182008~exp=1734185608~hmac=ed9b09af22d8d64dbb368923712c744a3f486c194634771a2556b333aa401e4a&w=826" alt="Young couple examining blueprints with real estate agent while buying new home">
+        <div class="container mx-auto flex flex-col md:flex-row items-center py-20 px-6">
+            <div class="md:w-1/2 text-white">
+                <h1 class="text-4xl font-bold mb-4">Consultation, Design & Marketing</h1>
+            </div>
+            <div class="md:w-1/2 bg-white p-6 rounded-md shadow-md">
+                <h2 class="text-2xl font-bold mb-4">Get a Free Consultation</h2>
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" class="w-full mb-4 p-2 border rounded-md" id="name">
+                    <input type="email" placeholder="Your Email" class="w-full mb-4 p-2 border rounded-md" id="email">
+                    <input type="text" placeholder="Your Phone" class="w-full mb-4 p-2 border rounded-md" id="phone">
+                    <textarea placeholder="Your Message" class="w-full mb-4 p-2 border rounded-md" id="message"></textarea>
+                    <button type="submit" class="bg-orange-500 text-white px-4 py-2 rounded-md w-full">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Not Your Average Realtor Section -->
+    <section class="py-20 bg-gray-100" id="services">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Not Your Average Realtor</h2>
+            <p class="text-gray-600 mb-8">We offer a wide range of services to help you achieve your goals. Our team of experts is here to help you every step of the way.</p>
+            <div class="flex justify-center md:justify-end">
+                <div class="flex flex-col items-center space-y-4">
+                    <img src="file:///C:/Users/Admin/Downloads/4th%20year%20full%20stack%20Assets/4th%20year%20full%20stack%20Assets/Lead%20Generation%20Landing%20page%20(Images)/Ellipse%2011.svg" alt="Realtor Image" class="rounded-full" width="100" height="100">
+                    <img src="https://storage.googleapis.com/a1aa/image/WFIy55WMNTKSJFDZY3eHEic7kYnJ2nVJVhdwEl1Wy0FTrZ9JA.jpg" alt="Realtor Image" class="rounded-full" width="100" height="100">
+                    <img src="https://storage.googleapis.com/a1aa/image/WFIy55WMNTKSJFDZY3eHEic7kYnJ2nVJVhdwEl1Wy0FTrZ9JA.jpg" alt="Realtor Image" class="rounded-full" width="100" height="100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us Section -->
+    <section class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Why Choose Us?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-md shadow-md">
+                    <i class="fas fa-chart-line text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Potential ROI</h3>
+                    <p class="text-gray-600">We help you maximize your return on investment with our expert services.</p>
+                </div>
+                <div class="bg-white p-6 rounded-md shadow-md">
+                    <i class="fas fa-paint-brush text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Design</h3>
+                    <p class="text-gray-600">Our design team will help you create a space that is both functional and beautiful.</p>
+                </div>
+                <div class="bg-white p-6 rounded-md shadow-md">
+                    <i class="fas fa-bullhorn text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Marketing</h3>
+                    <p class="text-gray-600">We use the latest marketing strategies to help you reach your target audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section class="py-20 bg-gray-100" id="about">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Us</h2>
+            <p class="text-gray-600 mb-8">Our team of experts is here to help you every step of the way. We offer a wide range of services to help you achieve your goals.</p>
+            <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-md">Learn More</a>
+        </div>
+    </section>
+    <!-- Our Projects Section -->
+    <section class="py-20" id="projects">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8" id="projects">
+                <!-- Projects will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+    <!-- Happy Clients Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Happy Clients</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8" id="clients">
+                <!-- Clients will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter Subscription Section -->
+    <section class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Subscribe to our Newsletter</h2>
+            <form class="flex justify-center" id="newsletterForm">
+                <input type="email" placeholder="Your Email" class="w-full md:w-1/2 mb-4 p-2 border rounded-md" id="newsletterEmail">
+                <button type="submit" class="bg-orange-500 text-white px-4 py-2 rounded-md">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="py-20 bg-gray-100" id="contact">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+            <form id="contactFormDetails">
+                <input type="text" placeholder="Full Name" class="w-full mb-4 p-2 border rounded-md" id="contactName">
+                <input type="email" placeholder="Email Address" class="w-full mb-4 p-2 border rounded-md" id="contactEmail">
+                <input type="text" placeholder="Mobile Number" class="w-full mb-4 p-2 border rounded-md" id="contactMobile">
+                <input type="text" placeholder="City" class="w-full mb-4 p-2 border rounded-md" id="contactCity">
+                <button type="submit" class="bg-orange-500 text-white px-4 py-2 rounded-md w-full">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-10">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">Learn more about our listing process, as well as our additional staging and design work.</h2>
+            <a href="#" class="bg-orange-500 text-white px-4 py-2 rounded-md">Learn More</a>
+        </div>
+        <div class="container mx-auto flex justify-between items-center py-6 px-6">
+            <nav class="space-x-4">
+                <a href="#home" class="text-white hover:text-gray-400">Home</a>
+                <a href="#services" class="text-white hover:text-gray-400">Services</a>
+                <a href="#projects" class="text-white hover:text-gray-400">Projects</a>
+                <a href="#contact" class="text-white hover:text-gray-400">Contact</a>
+                <a href="#about" class="text-white hover:text-gray-400">About</a>
+            </nav>
+            <div class="text-white">© 2023 Real Trust</div>
+            <div class="space-x-4">
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
