@@ -61,14 +61,28 @@
     </section>
     <!-- Not Your Average Realtor Section -->
     <section class="py-20 bg-gray-100" id="services">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-4">Not Your Average Realtor</h2>
-            <p class="text-gray-600 mb-8">We offer a wide range of services to help you achieve your goals. Our team of experts is here to help you every step of the way.</p>
-            <div class="flex justify-center md:justify-end">
-                <div class="flex flex-col items-center space-y-4">
-                    <img src="file:///C:/Users/Admin/Downloads/4th%20year%20full%20stack%20Assets/4th%20year%20full%20stack%20Assets/Lead%20Generation%20Landing%20page%20(Images)/Ellipse%2011.svg" alt="Realtor Image" class="rounded-full" width="100" height="100">
-                    <img src="https://storage.googleapis.com/a1aa/image/WFIy55WMNTKSJFDZY3eHEic7kYnJ2nVJVhdwEl1Wy0FTrZ9JA.jpg" alt="Realtor Image" class="rounded-full" width="100" height="100">
-                    <img src="https://storage.googleapis.com/a1aa/image/WFIy55WMNTKSJFDZY3eHEic7kYnJ2nVJVhdwEl1Wy0FTrZ9JA.jpg" alt="Realtor Image" class="rounded-full" width="100" height="100">
+        <div class="container mx-auto flex flex-col md:flex-row items-center text-center md:text-left">
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold mb-4 text-blue-600">Not Your Average Realtor</h2>
+                <p class="text-gray-600 mb-8">We offer a wide range of services to help you achieve your goals. Our team of experts is here to help you every step of the way.</p>
+            </div>
+            <div class="md:w-1/2 flex justify-center md:justify-end">
+                <div class="relative">
+                    <div class="absolute top-0 left-0 w-4 h-4 bg-blue-500 rounded-full"></div>
+                    <div class="absolute bottom-0 left-0 w-4 h-4 bg-orange-500 rounded-full"></div>
+                    <div class="flex items-center justify-center space-x-4">
+                        <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                            <img src="https://storage.googleapis.com/a1aa/image/ByiI9MbFxTpTDpgVOGylLmiUsYKd9Lha1mh3RqCYfov16a9JA.jpg" alt="A person in a white shirt holding a small model house and smiling" class="w-full h-full object-cover" width="160" height="160">
+                        </div>
+                        <div class="flex flex-col space-y-4">
+                            <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                                <img src="https://storage.googleapis.com/a1aa/image/DnvTW5Z5ME7vOZLjiojt2ZTfQZ1ie2elm7jYOY0ffrLMtuWfE.jpg" alt="A couple discussing with a person in a white shirt" class="w-full h-full object-cover" width="128" height="128">
+                            </div>
+                            <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                                <img src="https://storage.googleapis.com/a1aa/image/7Rqp8KBuVDahE9qrQ4Dtiouxe7GqFwifECMkvttoALlo116TA.jpg" alt="A person in a white shirt holding a document and smiling" class="w-full h-full object-cover" width="128" height="128">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,52 +136,96 @@
             </div>
         </div>
     </section>
-    <!-- Newsletter Subscription Section -->
-    <section class="py-20">
+    <!-- Team Members Section -->
+    <section class="py-20 bg-gray-100">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8">Subscribe to our Newsletter</h2>
-            <form class="flex justify-center" id="newsletterForm">
-                <input type="email" placeholder="Your Email" class="w-full md:w-1/2 mb-4 p-2 border rounded-md" id="newsletterEmail">
-                <button type="submit" class="bg-orange-500 text-white px-4 py-2 rounded-md">Subscribe</button>
-            </form>
-        </div>
-    </section>
-    <!-- Contact Section -->
-    <section class="py-20 bg-gray-100" id="contact">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
-            <form id="contactFormDetails">
-                <input type="text" placeholder="Full Name" class="w-full mb-4 p-2 border rounded-md" id="contactName">
-                <input type="email" placeholder="Email Address" class="w-full mb-4 p-2 border rounded-md" id="contactEmail">
-                <input type="text" placeholder="Mobile Number" class="w-full mb-4 p-2 border rounded-md" id="contactMobile">
-                <input type="text" placeholder="City" class="w-full mb-4 p-2 border rounded-md" id="contactCity">
-                <button type="submit" class="bg-orange-500 text-white px-4 py-2 rounded-md w-full">Submit</button>
-            </form>
-        </div>
-    </section>
-    <!-- Footer -->
-    <footer class="bg-blue-900 text-white py-10">
-        <div class="container mx-auto text-center">
-            <h2 class="text-2xl font-bold mb-4">Learn more about our listing process, as well as our additional staging and design work.</h2>
-            <a href="#" class="bg-orange-500 text-white px-4 py-2 rounded-md">Learn More</a>
-        </div>
-        <div class="container mx-auto flex justify-between items-center py-6 px-6">
-            <nav class="space-x-4">
-                <a href="#home" class="text-white hover:text-gray-400">Home</a>
-                <a href="#services" class="text-white hover:text-gray-400">Services</a>
-                <a href="#projects" class="text-white hover:text-gray-400">Projects</a>
-                <a href="#contact" class="text-white hover:text-gray-400">Contact</a>
-                <a href="#about" class="text-white hover:text-gray-400">About</a>
-            </nav>
-            <div class="text-white">© 2023 Real Trust</div>
-            <div class="space-x-4">
-                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Profile picture of Rowhan Smith" class="w-24 h-24 rounded-full mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/ZfMuCFU9lo0SbCgv4DzI1EaMuSWv6OhXK9wfeNhVnm9ekWrPB.jpg" width="100"/>
+                    <p class="text-gray-600 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <h3 class="text-blue-600 font-semibold">Rowhan Smith</h3>
+                    <p class="text-gray-500">CEO, Foreclosure</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Profile picture of Shipra Kayak" class="w-24 h-24 rounded-full mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/mUIIa9pKBN4IKZgBVzbwt4a539VeyovIb9LEZ5mX8wEo0a9JA.jpg" width="100"/>
+                    <p class="text-gray-600 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <h3 class="text-blue-600 font-semibold">Shipra Kayak</h3>
+                    <p class="text-gray-500">Brand Designer</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Profile picture of John Lepore" class="w-24 h-24 rounded-full mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/KKq8EfMArjUAJyQhr2NAkVgqBKIwGRBDeseU42SjkdfxkWrPB.jpg" width="100"/>
+                    <p class="text-gray-600 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <h3 class="text-blue-600 font-semibold">John Lepore</h3>
+                    <p class="text-gray-500">CEO, Foreclosure</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Profile picture of Marry Freeman" class="w-24 h-24 rounded-full mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/bx5sONb3aUJWEFZqqnn4o3m5bDkk32JpVhJeS0RN6ctm0a9JA.jpg" width="100"/>
+                    <p class="text-gray-600 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <h3 class="text-blue-600 font-semibold">Marry Freeman</h3>
+                    <p class="text-gray-500">Marketing Manager at Mint</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img alt="Profile picture of Lucy" class="w-24 h-24 rounded-full mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/iibCXebTbfmEwUsHSZKFjc0Qbd2zAk8R3JbipPW2RJZLp16TA.jpg" width="100"/>
+                    <p class="text-gray-600 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <h3 class="text-blue-600 font-semibold">Lucy</h3>
+                    <p class="text-gray-500">Sales Rep at Alibaba</p>
+                </div>
             </div>
         </div>
-    </footer>
-    <script src="js/main.js"></script>
-</body>
-</html>
+    </section>
+    <!-- Our Projects Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <!-- Card 1 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Real estate agent handing keys to a new homeowner" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/onQSeSZ4maQGNSyf6kOL1wFAOlOTqBIrK7Izq2PADxD9c26TA.jpg" width="600"/>
+                    <div class="p-4">
+                        <h3 class="text-blue-600 font-bold text-lg">Consultation</h3>
+                        <p class="text-gray-500">Original Article - 12/01/21</p>
+                        <button class="mt-4 bg-orange-500 text-white py-2 px-4 rounded">Read More</button>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="A modern house with a sleek design" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/6SnXbP1NDyqELVyPZqgEZ7sAoFNtCZN7KBuUWvv45qxrnteJA.jpg" width="600"/>
+                    <div class="p-4">
+                        <h3 class="text-blue-600 font-bold text-lg">Design</h3>
+                        <p class="text-gray-500">Original Article - 12/01/21</p>
+                        <button class="mt-4 bg-orange-500 text-white py-2 px-4 rounded">Read More</button>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="A house with a beautiful garden" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/K4ThVqDWIN5jOBzzN1Eln5uWfSf7e9fX18FpOfTopEDB2zWfE.jpg" width="600"/>
+                    <div class="p-4">
+                        <h3 class="text-blue-600 font-bold text-lg">Marketing &amp; Selling</h3>
+                        <p class="text-gray-500">Original Article - 12/01/21</p>
+                        <button class="mt-4 bg-orange-500 text-white py-2 px-4 rounded">Read More</button>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Real estate agent holding a sold sign" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/YmPRRk47d66cAJze0Zim6iL5kBpwWP7x6oCHCifAKmqf5s1nA.jpg" width="600"/>
+                    <div class="p-4">
+                        <h3 class="text-blue-600 font-bold text-lg">Consultation &amp; Marketing</h3>
+                        <p class="text-gray-500">Original Article - 12/01/21</p>
+                        <button class="mt-4 bg-orange-500 text-white py-2 px-4 rounded">Read More</button>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Real estate agent discussing with a couple" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/z3ZMwRgVy6I8AB1yjxbv8mWfMKNKVGYz5ep3f3MYv8iE6s1nA.jpg" width="600"/>
+                    <div class="p-4">
+                        <h3 class="text-blue-600 font-bold text
